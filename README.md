@@ -266,19 +266,6 @@ Also covered: low-confidence escalation, incident update syncing to ServiceNow, 
 
 ---
 
-## Demo script (about 10 minutes)
-
-Use **Reset demo data** on the dashboard before starting. Signed-in user: Jordan Lee.
-
-1. *"I cannot connect to VPN since this morning. Authentication keeps failing."* Show the triage panel (P2, Network Support, 97% confidence), the VPN diagnostics, the KB steps with sources, and INC number. Open **Full analysis** to show the ServiceNow record and work notes.
-2. *"My password has expired."* Show the 7-step decision trace, MFA gate, validation and the incident resolved as *Solved (Automated)*. Switch user to Alex Kim (admin) and repeat to show the policy block and escalation.
-3. *"How do I troubleshoot Outlook synchronization?"* Show the grounded LLM answer, KB0004 sources and similarity scores. Use the Knowledge base page's *Ask* panel to show retrieved passages against the 0.45 cut-off.
-4. *"I need Visual Studio Code installed on my laptop."* REQ created, provisioning progress live on the Software page until Completed. Request Adobe Acrobat Pro to show manager approval.
-5. *"What is the cafeteria menu for Friday?"* The assistant refuses to guess and offers **Create a ServiceNow ticket**. The question then appears under *Unanswered questions* in the Knowledge base.
-6. Dashboard: totals, AI-resolved vs escalated, automation outcomes, software requests.
-
----
-
 ## Known limitations
 
 - Automation, VPN, provisioning and approval systems are **mocks** with realistic state. No real accounts or devices are changed.
