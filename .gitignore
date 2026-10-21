@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/
+.pytest_cache/
+.DS_Store
+
+
+# Local Claude Code launch config (machine-specific paths)
+.claude/
+
+# Frontend build output and dependencies
+frontend/node_modules/
+frontend/dist/

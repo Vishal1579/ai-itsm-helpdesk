@@ -1,0 +1,25 @@
+# API
+fastapi==0.153.0
+uvicorn[standard]==0.54.0
+pydantic==2.14.1
+pydantic-settings==2.16.1
+httpx==0.28.1
+python-dotenv==1.2.4
+
+# MongoDB Atlas (+ in-memory fallback for offline demos/tests)
+motor==3.7.1
+pymongo==4.19.0
+mongomock==4.3.0
+mongomock-motor==0.0.36
+
+# AI / RAG
+numpy==2.5.4
+torch==2.14.1
+transformers==5.20.2
+sentence-transformers==6.1.0
+huggingface_hub==1.33.0
+faiss-cpu==1.15.1
+
+# Tests
+pytest==9.1.1
+pytest-asyncio==1.4.0
